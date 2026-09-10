@@ -1,10 +1,10 @@
 from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
+from tests.fixtures.driver import driver
 
-def test_navegacao():
+def test_navegacao(driver):
     # Inicializa o ChromeDriver automaticamente
-    driver = webdriver.Chrome()  # Use Edge instead of Chrome
 
     try:
         driver.get("https://www.selenium.dev/selenium/web/web-form.html")
