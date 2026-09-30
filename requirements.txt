@@ -1,5 +1,12 @@
+isort
+tox
+flake8
 selenium 
 pytest 
+pytest-html
 webdriver-manager 
 python-dotenv
 guara
+black
+pytest-bdd
+behave
