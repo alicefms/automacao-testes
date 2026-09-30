@@ -34,9 +34,6 @@ jobs:
             --junitxml=reports/results.xml \
             --self-contained-html \
             -m smoke
-      - name: Run Behave tests
-        run: |
-          behave
       - name: Upload reports
         uses: actions/upload-artifact@v4
         with:

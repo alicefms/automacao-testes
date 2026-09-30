@@ -1,7 +1,9 @@
 from selenium.webdriver.common.by import By 
 from selenium import webdriver
 from tests.fixtures.driver import driver
-      
+import pytest
+
+    
 def test_compra_produto_com_sucesso(driver): 
          # ========================= 
          # 1. LOGIN 
